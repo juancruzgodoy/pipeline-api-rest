@@ -21,7 +21,7 @@ Este proyecto implementa un pipeline de extracción, transformación y carga (ET
 
 1.  **Clonar el repositorio:**
     ```bash
-    git clone <tu-repo-url>
+    git clone https://github.com/juancruzgodoy/pipeline-api-rest
     cd pipeline-api-rest
     ```
 
@@ -44,8 +44,8 @@ Este proyecto implementa un pipeline de extracción, transformación y carga (ET
 
     ```env
     API_URL=[https://iansaura.com/api/datasets.php](https://iansaura.com/api/datasets.php)
-    API_EMAIL=tu_email@ejemplo.com
-    API_KEY=tu_token_secreto_aqui
+    API_EMAIL=email@ejemplo.com
+    API_KEY=token
     API_TYPE=ecommerce
     API_ROWS=5000
     ```
