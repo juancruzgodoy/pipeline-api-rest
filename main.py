@@ -8,7 +8,7 @@ import pandas as pd
 import pyarrow.parquet as pq
 import pyarrow as pa
 
-# 1. Configuración del Logging
+# Configuración del Logging
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
