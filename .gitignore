@@ -1,0 +1,23 @@
+# --- Seguridad (CRÍTICO) ---
+.env
+output/
+
+# --- Basura de Python ---
+__pycache__/
+*.pyc
+
+# --- Entornos virtuales (si usas uno) ---
+venv/
+.venv/
+env/
+
+# --- Archivos de sistema (Mac/Windows) ---
+.DS_Store
+Thumbs.db
+
+# --- Datos (Opcional pero recomendado) ---
+# Como Data Engineer, a veces bajamos archivos pesados para probar.
+# Es buena práctica no subir los datos crudos a Git.
+*.csv
+*.parquet
+*.json
